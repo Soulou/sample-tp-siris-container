@@ -1,6 +1,6 @@
 # Sample Python/Celery application
 
-### Running
+## Description
 
 This application is composed of two components:
 
@@ -13,7 +13,23 @@ available for both processes.
 
 It is compatible up to Python 3.6.x
 
+## How to start the app
+
+### Flask server
+
+```
+python app.py
+```
+
 The application will be available on http://localhost:3000
+
+### Celery worker
+
+```
+python job.py
+```
+
+The application will start consuming jobs sent from the Flask web server
 
 ## Links
 

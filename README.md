@@ -15,6 +15,12 @@ It is compatible up to Python 3.6.x
 
 ## How to start the app
 
+### Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
 ### Flask server
 
 ```
@@ -26,7 +32,7 @@ The application will be available on http://localhost:3000
 ### Celery worker
 
 ```
-python job.py
+celery worker --app job.app
 ```
 
 The application will start consuming jobs sent from the Flask web server

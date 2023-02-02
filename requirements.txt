@@ -10,4 +10,4 @@ kombu==3.0.35
 MarkupSafe==0.23
 pytz==2016.4
 redis==2.10.5
-Werkzeug==0.14.1
+Werkzeug==0.15.5
